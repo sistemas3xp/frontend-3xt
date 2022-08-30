@@ -1,8 +1,8 @@
-import { Button } from "@mui/material";
 import React from "react";
 import { finishLoading, startLoading } from "@features/loading/loading";
 import { useAppDispatch } from "@hooks/reduxHooks";
 import { APP_NAME } from "env";
+import { CustomButton } from "@components/atoms";
 
 const Home = () => {
   const dispatch = useAppDispatch();
@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div>
       {APP_NAME}
-      <Button onClick={loadingTest}>start</Button>
+      <CustomButton text="start" onClick={loadingTest}></CustomButton>
     </div>
   );
 };
