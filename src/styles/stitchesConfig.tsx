@@ -14,6 +14,7 @@ export const { styled, css } = createStitches({
       board_bg: "#192A32",
     },
     space: {
+      0: "0px",
       1: "8px",
       2: "16px",
       3: "24px",
@@ -26,6 +27,7 @@ export const { styled, css } = createStitches({
       10: "80px",
     },
     fontSizes: {
+      0: "0px",
       1: "8px",
       2: "16px",
       3: "24px",
@@ -44,13 +46,15 @@ export const { styled, css } = createStitches({
     radii: {
       card: "25px",
     },
+    shadows: {
+      0: "0px 8px",
+    },
     fontWeights: {},
     lineHeights: {},
     letterSpacings: {},
     sizes: {},
     borderWidths: {},
     borderStyles: {},
-    shadows: {},
     zIndices: {},
     transitions: {},
   },
