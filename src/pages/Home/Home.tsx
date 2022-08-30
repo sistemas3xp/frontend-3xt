@@ -1,7 +1,6 @@
 import React from "react";
 import { finishLoading, startLoading } from "@features/loading/loading";
 import { useAppDispatch } from "@hooks/reduxHooks";
-import { APP_NAME } from "env";
 import { CustomButton } from "@components/atoms";
 import X_ICON from "@assets/x.svg";
 import O_ICON from "@assets/o.svg";
